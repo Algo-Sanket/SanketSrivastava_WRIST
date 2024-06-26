@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Blade : MonoBehaviour
+public class HandController2D : MonoBehaviour
 {
-    public float sliceForce = 5f;
+      public float sliceForce = 5f;
     public float minSliceVelocity = 0.01f;
     public GameObject choppedPiecePrefab; // Add this line
     private BallManager ballManager; // Add this line
